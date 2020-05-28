@@ -1246,3 +1246,7 @@ body:after {
 .footer a:hover {
   color: #000;
 }
+
+a {
+  color: #f0d37b;
+}
