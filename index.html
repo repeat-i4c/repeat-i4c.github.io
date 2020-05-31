@@ -517,31 +517,31 @@
         </div>
         <div class="row justify-content-between">
           <div class="col-lg-6">
-            <form action="#" class="form">
+            <form action="https://formspree.io/repeat.I4C@gmail.com" method="POST" class="form">
               <div class="row mb-4">
                 <div class="form-group col-6">
-                  <input type="text" class="form-control" placeholder="First name">
+                  <input type="text" name="name" id="name" class="form-control" placeholder="First name">
                 </div>
                 <div class="form-group col-6">
-                  <input type="text" class="form-control" placeholder="Full name">
+                  <input type="text" name="surname" id="surname" class="form-control" placeholder="Full name">
                 </div>
               </div>
 
               <div class="row mb-4">
                 <div class="form-group col-12">
-                  <input type="email" class="form-control" placeholder="Email address">
+                  <input type="email" name="_replyto" class="form-control" placeholder="Email address">
                 </div>
               </div>
 
               <div class="row mb-4">
                 <div class="form-group col-12">
-                  <input type="text" class="form-control" placeholder="Subject of the message">
+                  <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject of the message">
                 </div>
               </div>
 
               <div class="row mb-4">
                 <div class="form-group col-12">
-                  <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Type your message here.."></textarea>
+                  <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Type your message here.."></textarea>
                 </div>
               </div>
 
@@ -550,7 +550,7 @@
                   <input type="submit" class="btn btn-primary" value="Send Message">
                 </div>
               </div>
-              
+              <input type="hidden" name="_subject" value="New email from Contact Me Form!">
             </form>
           </div>
           <div class="col-lg-5">
