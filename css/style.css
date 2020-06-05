@@ -1252,5 +1252,9 @@ a {
 }
 
 .slide-one-item .slide blockquote:before {
-  color: black;
+  color: #ffd25b;
+}
+
+.site-blocks-cover {
+  background-color: #ffd25b;
 }

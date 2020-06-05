@@ -22,6 +22,9 @@ a {
 }
 
 .slide-one-item .slide blockquote:before {
-    color: black;
-    
+    color: $primary;
+}
+
+.site-blocks-cover {
+    background-color: $primary;
 }
