@@ -1248,5 +1248,9 @@ body:after {
 }
 
 a {
-  color: #f0d37b;
+  color: #ffd25b;
+}
+
+.slide-one-item .slide blockquote:before {
+  color: black;
 }
