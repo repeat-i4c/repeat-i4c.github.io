@@ -1259,6 +1259,10 @@ a {
   background-color: #ffd25b;
 }
 
-b {
+strong {
   color: #ffd25b;
+}
+
+.bg-primary {
+  background-color: #ffd25b !important;
 }
